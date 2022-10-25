@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Symbols.cpp">
+      <Filter>Symbols</Filter>
+    </ClCompile>
+    <ClCompile Include="PEFile.cpp">
+      <Filter>PeFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SSDTDumper.cpp">
+      <Filter>SSDTDumper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dia">
+      <UniqueIdentifier>{9bf2db17-faa9-402c-bd15-b6f3b507364f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Symbols">
+      <UniqueIdentifier>{d2ac9308-8934-4915-a55d-a56dcf15758b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PeFile">
+      <UniqueIdentifier>{4fbd7365-e447-4395-9497-ab0772fe2382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{cf63a4e4-60f2-4ba1-9742-066f719444f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SSDTDumper">
+      <UniqueIdentifier>{20f880a0-352d-4706-930d-0c7659cf065b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dia\cvconst.h">
+      <Filter>Dia</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia\dia2.h">
+      <Filter>Dia</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia\diacreate.h">
+      <Filter>Dia</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbols.h">
+      <Filter>Symbols</Filter>
+    </ClInclude>
+    <ClInclude Include="PEFile.h">
+      <Filter>PeFile</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="SSDTDumper.h">
+      <Filter>SSDTDumper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Dia\diaguids_x64.lib">
+      <Filter>Dia</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
